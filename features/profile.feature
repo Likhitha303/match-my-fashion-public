@@ -14,13 +14,7 @@ Feature: See a Profile
     When I press and go to my profile
     Then I should see my first name
 
-Scenario: When a user does not upload a profile picture, I can see a default image instead of empty
-  
-  Given I am on the Match My Fashion home page
-  When I sign up for an account
-  And I donot upload a profile picture
-  Then I should see the default image icon
-  
+
 #  Scenario: When a user attempts to create a profile, account creation fails
 #
 #    Given I am on the Match My Fashion home page

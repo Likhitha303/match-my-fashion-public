@@ -9,6 +9,8 @@ Scenario: When a user does not upload a profile picture, I can see a default ima
   
   Given I am on the Match My Fashion home page
   When I sign up for an account
-  And I donot upload a profile picture
+  When I fill 
+  
+  And I press "Submit"
   Then I should see the default image icon
   

@@ -7,3 +7,4 @@ end
 When(/^I press and go to my profile$/) do
   visit '/show_profile'
 end
+
