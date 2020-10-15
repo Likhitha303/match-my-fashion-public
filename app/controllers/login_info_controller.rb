@@ -30,7 +30,7 @@ class LoginInfoController < ApplicationController
         if @login_info.save
           session[:current_user_key] = @login_info.userKey 
           flash[:notice] = "Account Created!"
-          redirect_to general_info_path
+          redirect_to '/show_profile'
         else
           flash[:notice] = "Failed Saving!"
           redirect_to root_path
